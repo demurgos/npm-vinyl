@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": true
+    "moduleResolution": "node"
   },
   "files": [
+    "custom-typings/cloneable-readable.d.ts",
+    "custom-typings/mississippi.d.ts",
     "File.ts",
     "inspect-stream.ts",
     "normalize.ts",
