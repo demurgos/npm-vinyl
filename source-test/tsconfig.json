@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "noImplicitAny": true
   },
   "files": [
     "custom-typings/cloneable-readable.d.ts",
